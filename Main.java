@@ -1,9 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        // System.out.println("Hello World!!");
 
-        int[] score = { 60, 20, 50, 70, 80 };
-        System.out.println(score[0]);
+        // Hero h = new Hero();
+        // h.run(); 
 
+        // SuperHero sh = new SuperHero();
+        // sh.run();
+
+        Rose r = new Rose;
+        Flower f = r;
+        f.bloom();
+        f.cutThorn();
     }
 }
